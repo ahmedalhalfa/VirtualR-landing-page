@@ -21,11 +21,11 @@ const HeroSection = () => {
         </a>
       </div>
       <div className="flex mt-10 justify-center">
-        <video autoPlay loop muted className="rounded-lg w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4">
+        <video autoPlay loop muted controls className="rounded-lg w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4">
           <source src="https://i.imgur.com/jCiPYrV.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <video autoPlay loop muted className="rounded-lg w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4">
+        <video autoPlay loop muted controls className="rounded-lg w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4">
           <source src="https://i.imgur.com/b3Nj2ys.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
