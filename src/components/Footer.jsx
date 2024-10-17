@@ -1,4 +1,5 @@
 import { communityLinks, platformLinks, resourcesLinks } from '../constants';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -10,9 +11,9 @@ const Footer = () => {
             {resourcesLinks.map((resource, index) => {
               return (
                 <li key={index}>
-                  <a href={resource.href} className="text-neutral-300 hover:text-white">
+                  <Link to={resource.href} className="text-neutral-300 hover:text-white">
                     {resource.text}
-                  </a>
+                  </Link>
                 </li>
               );
             })}
@@ -24,9 +25,9 @@ const Footer = () => {
             {platformLinks.map((resource, index) => {
               return (
                 <li key={index}>
-                  <a href={resource.href} className="text-neutral-300 hover:text-white">
+                  <Link to={resource.href} className="text-neutral-300 hover:text-white">
                     {resource.text}
-                  </a>
+                  </Link>
                 </li>
               );
             })}
@@ -38,9 +39,9 @@ const Footer = () => {
             {communityLinks.map((resource, index) => {
               return (
                 <li key={index}>
-                  <a href={resource.href} className="text-neutral-300 hover:text-white">
+                  <Link to={resource.href} className="text-neutral-300 hover:text-white">
                     {resource.text}
-                  </a>
+                  </Link>
                 </li>
               );
             })}

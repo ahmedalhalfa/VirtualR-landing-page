@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
@@ -13,12 +15,12 @@ const HeroSection = () => {
         today turn your imagination into immersive reality
       </p>
       <div className="flex justify-center my-10">
-        <a href="#" className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 mx-3 rounded-md">
+        <Link to="/signin" className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 mx-3 rounded-md">
           Start For Free
-        </a>
-        <a href="#" className="py-2 px-3 mx-3 rounded-md border">
+        </Link>
+        <Link to="/documentation" className="py-2 px-3 mx-3 rounded-md border">
           Documentation
-        </a>
+        </Link>
       </div>
       <div className="flex mt-10 justify-center">
         <video autoPlay loop muted className="rounded-lg w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4">
