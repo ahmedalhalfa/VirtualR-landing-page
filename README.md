@@ -31,7 +31,7 @@
 
 ## Demo
 
-![VirtualR Demo](src/assets/demo-screenshot.png)
+![VirtualR Demo](public/demo-screenshot.png)
 
 *Note: Replace the above image with a screenshot of your application.*
 
