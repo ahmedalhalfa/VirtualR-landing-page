@@ -29,24 +29,24 @@ const NavBar = () => {
             <>
               <ul className="hidden lg:flex ml-14 space-x-12">
                 {navItems.map((item) => (
-              <li key={item.label}>
+                  <li key={item.label}>
                     <HashLink to={item.href}>{item.label}</HashLink>
-              </li>
-            ))}
-          </ul>
-          <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <Link to="/signin" className="py-2 px-3 border rounded-md">
-              Sign In
-            </Link>
-            <Link to="/create-account" className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md">
-              Create An Account
-            </Link>
-          </div>
+                  </li>
+                ))}
+              </ul>
+              <div className="hidden lg:flex justify-center space-x-12 items-center">
+                <Link to="/signin" className="py-2 px-3 border rounded-md">
+                  Sign In
+                </Link>
+                <Link to="/create-account" className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md">
+                  Create An Account
+                </Link>
+              </div>
+            </>
+          ) : null}
           <button className="lg:hidden md:flex flex-col justify-end" onClick={toggleNavBar}>
             {mobileDrawerOpen ? <X /> : <Menu />}
           </button>
-          </>
-          ) : null}
         </div>
       </div>
       {mobileDrawerOpen && (
@@ -55,7 +55,7 @@ const NavBar = () => {
             {navItems.map((item) => {
               return (
                 <li key={item.label} className="py-4">
-                  <HashLink to={item.href}>{item.label}</HashLink>
+                  <Link to={"/"}>{item.label}</Link>
                 </li>
               );
             })}
