@@ -90,7 +90,3 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 - **Ahmed Alhalfa**
 - **Email:** ah.alhalfa@gmail.com
 - **LinkedIn:** [linkedin.com/in/ahmedalhalfa](https://linkedin.com/in/ahmedalhalfa)
-
----
-
-© 2023 VirtualR Development Tools. All rights reserved.
