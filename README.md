@@ -185,10 +185,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-- **Your Name**
-- **Email:** your.email@example.com
-- **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- **GitHub:** [github.com/yourusername](https://github.com/yourusername)
+- **Ahmed Alhalfa**
+- **Email:** ah.alhalfa@gmail.com
+- **LinkedIn:** [linkedin.com/in/ahmedalhalfa](https://linkedin.com/in/ahmedalhalfa)
+- **GitHub:** [github.com/ahmedalhalfa](https://github.com/ahmedalhalfa)
 
 ---
 
