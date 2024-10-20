@@ -113,6 +113,7 @@ Upon launching the application, you'll be greeted with the **Hero Section**, int
 - **Authentication:** Access secure Sign In and Create Account pages to manage your account.
 
 ## Project Structure
+```
 virtualr/
 ├── public/
 │ ├── vite.svg
@@ -148,7 +149,7 @@ virtualr/
 ├── tailwind.config.js
 ├── vite.config.js
 └── README.md
-
+```
 
 ## Contributing
 
